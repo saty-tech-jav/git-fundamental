@@ -1,12 +1,13 @@
-#Fundamentals of Github and git NOTES
-GIT:
+# Fundamentals of Github and git NOTES
+## GIT:
 
 Version control system is a tools that helps to track change in code.
 
 1.It helps to track the history
+<br>
 2.Collaborate with peers
 
-GITHUB:
+## GITHUB:
 
 Website that allows developers to store and manage their code using git.
 
@@ -19,14 +20,14 @@ README.md file is the basic file structure
 1.add
 2.commit
 
-COMMANDS
+## COMMANDS
 
 1.git --version
 2.git add .(For adding modified files and all newly added files)
 3.git add <filename> (for specific file name)
 4.git commit -m "adding first change"
 
-CONFIGURATION OF GIT
+## CONFIGURATION OF GIT
 
 5.git config --global user.name "satyamkumar"
 6.git config --global user.email "sat133kumar@gmail.com"
@@ -50,7 +51,7 @@ commit=unchanged (it is the record of change)
 
 15.git push origin main (for pushing code in repo/remote from local)
 
-BRANCHES
+## BRANCHES
 
 16.git branch (to check branch)
 17.git branch -M main(to rename branch)
@@ -58,24 +59,24 @@ BRANCHES
 19.git checkout -b <branch-name> --(for creating new branch)
 20.git branch  -d <branch-name> --(to delete branch)
 
-MERGING CODE
+## MERGING CODE
 
 21.git diff <branch name>  --comparision will made to <branch-name> by switched branch name
 22.git merge <branch name> 
 23.Merging of branch can be done by creating PR(Pull request)
 
-GIT CONFLICT
+## GIT CONFLICT
 
 An event that takes place when git is unable to automatically resolve difference in code 
 between branches.
 
-RENAMING OF BRANCH ON GITHUB ALSO
+## RENAMING OF BRANCH ON GITHUB ALSO
 
 24.git push origin :old-name-of-branch-on-github
 25.git branch -m old-name-of-branch-on-github new-name-for-branch-you-want
 26.git push origin new-name-for-branch-you-want
 
-CREATION OF REPO FROM COMMAND LINE 
+## CREATION OF REPO FROM COMMAND LINE 
 
 27.echo "# EX" >> README.md
 28.git init
@@ -88,7 +89,7 @@ CREATION OF REPO FROM COMMAND LINE
 
 
 
- PUSH EXISTING REPO FROM COMMAND LINE
+ ## PUSH EXISTING REPO FROM COMMAND LINE
 
 
 34.git remote add origin https://github.com/saty-tech-jav/EX.git
